@@ -40,7 +40,6 @@ def load_user(user_id):
 
 
 
-# --- AUTH DECORATOR ---
 def admin_required(f):
     @wraps(f)
     def decorated_function(*args, **kwargs):
